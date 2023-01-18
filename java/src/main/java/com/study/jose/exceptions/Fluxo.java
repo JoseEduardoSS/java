@@ -29,7 +29,11 @@ public class Fluxo {
 
             // Trouble 02
             Conta c = null;
-            c.deposita();
+            try {
+                c.deposita(); //NullPointer
+            } catch (MinhaException e) {
+                System.out.println("Exception: " + e.getMessage());
+            }
         }
         System.out.println("Fim do metodo2");
     }

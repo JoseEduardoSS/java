@@ -6,19 +6,15 @@ public class FluxoComTratamento {
         System.out.println("Ini do main");
         try {
             metodo1();
-        } catch (ArithmeticException | NullPointerException e) { //multicatching
+        } catch (Exception e) { //Genérico
             System.out.println("Exception: " + e.getMessage());
         }
         System.out.println("Fim do main");
     }
 
-    private static void metodo1() {
+    private static void metodo1() throws MinhaException {
         System.out.println("Ini do metodo1");
-        try {
-            metodo2();
-        } catch (MinhaException e) { // precisa tratar o checked throw
-            System.out.println("Exception: " + e.getMessage());
-        }
+        metodo2();
         System.out.println("Fim do metodo1");
     }
 
