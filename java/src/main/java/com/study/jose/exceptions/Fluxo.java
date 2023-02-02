@@ -1,5 +1,7 @@
 package com.study.jose.exceptions;
 
+import com.study.jose.model.ContaCorrente;
+
 public class Fluxo {
 
     public static void main(String[] args) {
@@ -28,9 +30,9 @@ public class Fluxo {
             // int a = i / 0;
 
             // Trouble 02
-            Conta c = null;
+            ContaCorrente c = null;
             try {
-                c.deposita(); //NullPointer
+                c.deposita(100.0); //NullPointer
             } catch (MinhaException e) {
                 System.out.println("Exception: " + e.getMessage());
             }
