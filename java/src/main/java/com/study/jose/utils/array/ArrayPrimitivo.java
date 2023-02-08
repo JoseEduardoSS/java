@@ -12,8 +12,8 @@ public class ArrayPrimitivo {
             idades[i] = i * i;
         }
 
-        for (int i = 0; i < idades.length; i++) {
-            System.out.println(idades[i]);
+        for (Integer idade : idades) {
+            System.out.println(idade);
         }
     }
 }
