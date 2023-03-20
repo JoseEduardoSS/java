@@ -21,7 +21,7 @@ public class ArmazenamentoContas {
         return posicao;
     }
 
-    public Conta getConta(Integer posicao) {
+    public Object getConta(Integer posicao) {
         return this.contas[posicao];
     }
 }

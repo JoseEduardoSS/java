@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b41a17cc-fc82-4216-8a87-7e692189ed1a" name="Changes" comment="commit from intellij">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/textsearch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/textsearch/TarefaTextSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/list/ArrayLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/list/LinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/array/ArmazenamentoContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/array/ArmazenamentoContas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/array/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/array/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/study/jose/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/study/jose/AppTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KSob7e1FYbc2dcWly9LtoHGye5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/projetos/java estudos/java/src/main/java/com/study/jose&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projetos/java estudos/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.study.jose.threads" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projetos\java estudos\java" />
+      <recent name="D:\projetos\java estudos\java\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.jose.utils.list" />
+      <recent name="com.study.jose.utils.array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.jose.utils.list.ArrayList" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.jose.utils.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.jose.utils.arraylist.Equals" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.jose.utils.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.jose.utils.list.LinkedLists" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.jose.utils.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.jose.threads.textsearch.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.jose.threads.textsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.jose.utils.array.Teste" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.jose.utils.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LinkedLists" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ArrayList" />
+      <item itemvalue="Application.Equals" />
+      <item itemvalue="Application.Teste" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LinkedLists" />
+        <item itemvalue="Application.Equals" />
+        <item itemvalue="Application.ArrayList" />
+        <item itemvalue="Application.Teste" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b41a17cc-fc82-4216-8a87-7e692189ed1a" name="Changes" comment="" />
+      <created>1673977418269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673977418269</updated>
+      <workItem from="1673977420105" duration="121000" />
+      <workItem from="1673977554537" duration="163000" />
+      <workItem from="1673977731866" duration="119000" />
+      <workItem from="1673977861392" duration="4493000" />
+      <workItem from="1673982683101" duration="127000" />
+      <workItem from="1673983008188" duration="126000" />
+      <workItem from="1674007972946" duration="216000" />
+      <workItem from="1674008376345" duration="7000" />
+      <workItem from="1674046465344" duration="1574000" />
+      <workItem from="1674061941984" duration="4458000" />
+      <workItem from="1674152417216" duration="754000" />
+      <workItem from="1674233949470" duration="980000" />
+      <workItem from="1674420237563" duration="15000" />
+      <workItem from="1675182883804" duration="331000" />
+      <workItem from="1675183227702" duration="2316000" />
+      <workItem from="1675359349475" duration="1850000" />
+      <workItem from="1675827774575" duration="129000" />
+      <workItem from="1675827916707" duration="21000" />
+      <workItem from="1675827941054" duration="33000" />
+      <workItem from="1675827987338" duration="145000" />
+      <workItem from="1675883772083" duration="2447000" />
+      <workItem from="1675966884265" duration="1139000" />
+      <workItem from="1676403819056" duration="2240000" />
+      <workItem from="1676476126302" duration="1913000" />
+      <workItem from="1678824455035" duration="628000" />
+      <workItem from="1679082429846" duration="2573000" />
+      <workItem from="1679314566571" duration="1617000" />
+      <workItem from="1679334561046" duration="318000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit from intellij">
+      <created>1675884230200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675884230200</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit from intellij">
+      <created>1675886196776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675886196776</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit from intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit from intellij" />
+  </component>
+</project>

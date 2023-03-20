@@ -18,7 +18,7 @@ public class Teste {
 
         System.out.println(qtd);
 
-        Conta ref = armazenamentoContas.getConta(0);
+        Conta ref = (Conta) armazenamentoContas.getConta(0);
         System.out.println(ref.getNumeroConta());
     }
 }
