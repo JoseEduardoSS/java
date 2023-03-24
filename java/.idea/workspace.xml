@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b41a17cc-fc82-4216-8a87-7e692189ed1a" name="Changes" comment="commit from intellij">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/textsearch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/textsearch/TarefaTextSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/list/ArrayLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/list/LinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/array/ArmazenamentoContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/array/ArmazenamentoContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/array/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/utils/array/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/study/jose/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/study/jose/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/Bath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/CleanTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/list/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/list/addElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +70,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.study.jose.threads.banheiro" />
+      <recent name="com.study.jose.threads.list" />
       <recent name="com.study.jose.threads" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -84,20 +83,7 @@
       <recent name="com.study.jose.utils.array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.jose.utils.list.ArrayList" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.jose.utils.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.study.jose.threads.banheiro.Main">
     <configuration name="Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.jose.utils.arraylist.Equals" />
       <module name="java" />
@@ -137,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.jose.utils.array.Teste" />
+    <configuration name="com.study.jose.threads.banheiro.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.jose.threads.banheiro.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.jose.utils.array.*" />
+          <option name="PATTERN" value="com.study.jose.threads.banheiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.study.jose.threads.list.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.jose.threads.list.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.jose.threads.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,19 +161,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.study.jose.threads.list.Main" />
+      <item itemvalue="Application.com.study.jose.threads.banheiro.Main" />
       <item itemvalue="Application.LinkedLists" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ArrayList" />
       <item itemvalue="Application.Equals" />
-      <item itemvalue="Application.Teste" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.study.jose.threads.banheiro.Main" />
+        <item itemvalue="Application.com.study.jose.threads.list.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedLists" />
         <item itemvalue="Application.Equals" />
-        <item itemvalue="Application.ArrayList" />
-        <item itemvalue="Application.Teste" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +212,10 @@
       <workItem from="1678824455035" duration="628000" />
       <workItem from="1679082429846" duration="2573000" />
       <workItem from="1679314566571" duration="1617000" />
-      <workItem from="1679334561046" duration="318000" />
+      <workItem from="1679334561046" duration="1953000" />
+      <workItem from="1679392633932" duration="599000" />
+      <workItem from="1679396405275" duration="3717000" />
+      <workItem from="1679661452322" duration="2930000" />
     </task>
     <task id="LOCAL-00001" summary="commit from intellij">
       <created>1675884230200</created>
