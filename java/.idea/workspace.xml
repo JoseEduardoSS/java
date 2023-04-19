@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b41a17cc-fc82-4216-8a87-7e692189ed1a" name="Changes" comment="commit from intellij">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/Bath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/CleanTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/banheiro/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/list/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/list/addElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/deadlock/GerenciadorDeTransacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/deadlock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/deadlock/PoolDeConexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/deadlock/taskAccessDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/jose/threads/deadlock/taskProcDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/jose/threads/banheiro/CleanTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/jose/threads/banheiro/CleanTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/jose/threads/banheiro/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/jose/threads/banheiro/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +61,15 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_directory_selection&quot;: &quot;D:/projetos/java estudos/java/src/main/java/com/study/jose&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/projetos/java estudos/java&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\josee\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -70,6 +79,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.study.jose.threads.deadlock" />
       <recent name="com.study.jose.threads.banheiro" />
       <recent name="com.study.jose.threads.list" />
       <recent name="com.study.jose.threads" />
@@ -83,20 +93,7 @@
       <recent name="com.study.jose.utils.array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.study.jose.threads.banheiro.Main">
-    <configuration name="Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.jose.utils.arraylist.Equals" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.jose.utils.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.study.jose.threads.deadlock.Main">
     <configuration name="LinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.jose.utils.list.LinkedLists" />
       <module name="java" />
@@ -136,6 +133,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.study.jose.threads.deadlock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.jose.threads.deadlock.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.jose.threads.deadlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.study.jose.threads.list.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.jose.threads.list.Main" />
       <module name="java" />
@@ -161,19 +171,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.study.jose.threads.deadlock.Main" />
       <item itemvalue="Application.com.study.jose.threads.list.Main" />
       <item itemvalue="Application.com.study.jose.threads.banheiro.Main" />
       <item itemvalue="Application.LinkedLists" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Equals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.study.jose.threads.deadlock.Main" />
         <item itemvalue="Application.com.study.jose.threads.banheiro.Main" />
         <item itemvalue="Application.com.study.jose.threads.list.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedLists" />
-        <item itemvalue="Application.Equals" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +225,14 @@
       <workItem from="1679334561046" duration="1953000" />
       <workItem from="1679392633932" duration="599000" />
       <workItem from="1679396405275" duration="3717000" />
-      <workItem from="1679661452322" duration="2930000" />
+      <workItem from="1679661452322" duration="3315000" />
+      <workItem from="1679686052384" duration="820000" />
+      <workItem from="1679920254037" duration="2736000" />
+      <workItem from="1680005966939" duration="179000" />
+      <workItem from="1680114773952" duration="817000" />
+      <workItem from="1681693938952" duration="121000" />
+      <workItem from="1681694200850" duration="37000" />
+      <workItem from="1681744094328" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="commit from intellij">
       <created>1675884230200</created>
